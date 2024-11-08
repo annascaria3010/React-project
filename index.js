@@ -1,7 +1,4 @@
-import React from "react"
-import ReactDOM from "react-dom"
-
-const navbar = (
+const Navbar = (
     <nav>
         <h1>Zakariya's Swargarajyam</h1>
         <ul>
@@ -10,6 +7,7 @@ const navbar = (
             <li>Contact</li>
         </ul>
     </nav>
-)
+);
 
-ReactDOM.render(navbar, document.getElementById("root"))
+ReactDOM.render( Navbar, document.getElementById("root"));
+
