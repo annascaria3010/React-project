@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -26,7 +26,7 @@
 
 .App-link {
   color: #61dafb;
-}
+} */
 
 /* @keyframes App-logo-spin {
   from {
@@ -36,3 +36,74 @@
     transform: rotate(360deg);
   } */
 /* } */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  height: 90px;
+  padding: 30px 25px;
+}
+
+.nav--logo_text, .nav--title {
+  margin: 0;
+}
+
+.nav--logo_text {
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.nav--title {
+  color: #DEEBF8;
+  font-weight: 600;
+}
+
+.nav--icon {
+  height: 30px;
+  margin-right: 7px;
+}
+
+.container {
+  background-color:  #282D35;
+  height: 150%;
+  color: #ffffff;
+  
+}
+
+.image {
+  max-height: 50vh;
+  max-width: 50vw;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.heading {
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.points {
+  padding-block: 0.5rem;
+  max-width: 400px ;
+}
+
+ul li::marker {
+  color: #61DAFB;
+  font-size: 1.5em;
+}
